@@ -1,0 +1,97 @@
+.metric-card {
+  border-radius: 0.75rem;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+  padding: 1.5rem;
+  border-left-width: 4px;
+  transform: translateZ(0);
+  transition: all 0.3s;
+  position: relative;
+  overflow: hidden;
+}
+
+.metric-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1);
+}
+
+.metric-card--dark {
+  background-color: rgb(31, 41, 55);
+}
+
+.metric-card--light {
+  background-color: white;
+}
+
+.metric-card__icon-wrapper {
+  padding: 0.75rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+}
+
+.metric-card__title {
+  font-size: 0.875rem;
+  font-weight: 600;
+  margin-left: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.025em;
+}
+
+.metric-card__value {
+  font-size: 1.875rem;
+  font-weight: 700;
+}
+
+.metric-card__unit {
+  font-size: 1.125rem;
+  font-weight: 400;
+}
+
+/* Specific metric card styles */
+.energy-consumption-card .metric-card__icon-wrapper {
+  background-color: rgba(59, 130, 246, 0.1);
+  color: #3B82F6;
+}
+
+.power-factor-card .metric-card__icon-wrapper {
+  background-color: rgba(16, 185, 129, 0.1);
+  color: #10B981;
+}
+
+.current-load-card .metric-card__icon-wrapper {
+  background-color: rgba(245, 158, 11, 0.1);
+  color: #F59E0B;
+}
+
+.active-power-card .metric-card__icon-wrapper {
+  background-color: rgba(139, 92, 246, 0.1);
+  color: #8B5CF6;
+}
+
+.frequency-card .metric-card__icon-wrapper {
+  background-color: rgba(239, 68, 68, 0.1);
+  color: #EF4444;
+}
+
+.status-indicator {
+  font-size: 0.875rem;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+}
+
+.loading-placeholder {
+  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  height: 2rem;
+  width: 6rem;
+  border-radius: 0.25rem;
+  background-color: rgb(229, 231, 235);
+}
+
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: .5;
+  }
+}

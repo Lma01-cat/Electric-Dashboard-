@@ -1,0 +1,209 @@
+{
+  "currentData": {
+    "energyConsumption": 1247.5,
+    "cosPhi": 0.92,
+    "amperage": 15.8,
+    "voltage": 230,
+    "power": 3634,
+    "frequency": 50.0
+  },
+  "historicalData": [
+    {
+      "time": "14:30:00",
+      "energy": 1245.2,
+      "cosPhi": 0.91,
+      "amperage": 14.5,
+      "voltage": 228.5,
+      "power": 3580,
+      "frequency": 49.98
+    },
+    {
+      "time": "14:30:03",
+      "energy": 1245.7,
+      "cosPhi": 0.93,
+      "amperage": 15.2,
+      "voltage": 230.2,
+      "power": 3612,
+      "frequency": 50.01
+    },
+    {
+      "time": "14:30:06",
+      "energy": 1246.1,
+      "cosPhi": 0.89,
+      "amperage": 16.1,
+      "voltage": 229.8,
+      "power": 3645,
+      "frequency": 49.99
+    },
+    {
+      "time": "14:30:09",
+      "energy": 1246.5,
+      "cosPhi": 0.94,
+      "amperage": 14.8,
+      "voltage": 231.1,
+      "power": 3598,
+      "frequency": 50.02
+    },
+    {
+      "time": "14:30:12",
+      "energy": 1246.8,
+      "cosPhi": 0.88,
+      "amperage": 17.2,
+      "voltage": 228.9,
+      "power": 3671,
+      "frequency": 49.97
+    },
+    {
+      "time": "14:30:15",
+      "energy": 1247.2,
+      "cosPhi": 0.95,
+      "amperage": 13.9,
+      "voltage": 230.5,
+      "power": 3556,
+      "frequency": 50.03
+    },
+    {
+      "time": "14:30:18",
+      "energy": 1247.5,
+      "cosPhi": 0.92,
+      "amperage": 15.8,
+      "voltage": 230.0,
+      "power": 3634,
+      "frequency": 50.00
+    },
+    {
+      "time": "14:30:21",
+      "energy": 1247.9,
+      "cosPhi": 0.90,
+      "amperage": 16.5,
+      "voltage": 229.3,
+      "power": 3658,
+      "frequency": 49.98
+    },
+    {
+      "time": "14:30:24",
+      "energy": 1248.2,
+      "cosPhi": 0.93,
+      "amperage": 14.7,
+      "voltage": 231.2,
+      "power": 3589,
+      "frequency": 50.01
+    },
+    {
+      "time": "14:30:27",
+      "energy": 1248.6,
+      "cosPhi": 0.87,
+      "amperage": 18.1,
+      "voltage": 228.7,
+      "power": 3695,
+      "frequency": 49.96
+    },
+    {
+      "time": "14:30:30",
+      "energy": 1248.9,
+      "cosPhi": 0.96,
+      "amperage": 13.2,
+      "voltage": 230.8,
+      "power": 3542,
+      "frequency": 50.04
+    },
+    {
+      "time": "14:30:33",
+      "energy": 1249.3,
+      "cosPhi": 0.91,
+      "amperage": 15.6,
+      "voltage": 229.9,
+      "power": 3621,
+      "frequency": 50.00
+    },
+    {
+      "time": "14:30:36",
+      "energy": 1249.7,
+      "cosPhi": 0.89,
+      "amperage": 16.8,
+      "voltage": 228.4,
+      "power": 3672,
+      "frequency": 49.97
+    },
+    {
+      "time": "14:30:39",
+      "energy": 1250.0,
+      "cosPhi": 0.94,
+      "amperage": 14.3,
+      "voltage": 231.5,
+      "power": 3573,
+      "frequency": 50.02
+    },
+    {
+      "time": "14:30:42",
+      "energy": 1250.4,
+      "cosPhi": 0.86,
+      "amperage": 19.2,
+      "voltage": 227.8,
+      "power": 3718,
+      "frequency": 49.95
+    },
+    {
+      "time": "14:30:45",
+      "energy": 1250.8,
+      "cosPhi": 0.97,
+      "amperage": 12.8,
+      "voltage": 231.0,
+      "power": 3528,
+      "frequency": 50.05
+    },
+    {
+      "time": "14:30:48",
+      "energy": 1251.1,
+      "cosPhi": 0.92,
+      "amperage": 15.4,
+      "voltage": 230.2,
+      "power": 3612,
+      "frequency": 50.01
+    },
+    {
+      "time": "14:30:51",
+      "energy": 1251.5,
+      "cosPhi": 0.88,
+      "amperage": 17.6,
+      "voltage": 228.9,
+      "power": 3681,
+      "frequency": 49.98
+    },
+    {
+      "time": "14:30:54",
+      "energy": 1251.9,
+      "cosPhi": 0.95,
+      "amperage": 13.7,
+      "voltage": 230.7,
+      "power": 3548,
+      "frequency": 50.03
+    },
+    {
+      "time": "14:30:57",
+      "energy": 1252.2,
+      "cosPhi": 0.90,
+      "amperage": 16.3,
+      "voltage": 229.5,
+      "power": 3645,
+      "frequency": 49.99
+    }
+  ],
+  "thresholds": {
+    "cosPhi": {
+      "excellent": 0.95,
+      "good": 0.90,
+      "warning": 0.85
+    },
+    "amperage": {
+      "normal": 16,
+      "warning": 20
+    },
+    "frequency": {
+      "stable_min": 49.9,
+      "stable_max": 50.1,
+      "acceptable_min": 49.5,
+      "acceptable_max": 50.5
+    }
+  }
+}
